@@ -1,4 +1,9 @@
-from src import procesar
+import sys  
+import os  
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))  
+
+from src import procesar  
+
 
 rondas = [{
 'Shadow': {'kills': 2, 'assists': 1, 'deaths': True},

@@ -1,4 +1,4 @@
-def crear (final,rondas):    
+def crear (final,rondas):    #funcion para crear el diccionario de los jugadores
     if len(rondas)>0:  
         for nombre in rondas[0]:                      #recorremos el diccionario para inicializar los valores de cada jugador
             final[nombre]={"kills":0,"assists":0,"deaths":0,"MVP":0,"puntos":0}
