@@ -21,4 +21,5 @@ def procesarpartida (partida):      #funcion que procesa cada ronda de la partid
         finalordenado =diccionario.ordenarP(final)         #agregamos el MVP al diccionario final
         mvp = -1               #reiniciamos el MVP para la siguiente ronda
         diccionario.imprimir(finalordenado)    #imprmimos dos veces pq una es por ronda y la otra es el final
+    print("Partida finalizada")
     diccionario.imprimir(finalordenado)         

@@ -37,4 +37,4 @@ rondas = [{
 }]
 
 
-x = procesar.procesarpartida(rondas)         #llamamos a la funcion para procesar la partida
+partida = procesar.procesarpartida(rondas)         #llamamos a la funcion para procesar la partida y guardamos la partida en la varaible partida
